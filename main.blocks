@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="c/S)z[@RS#ND+Y?LjV8E">67</variable></variables><block type="device_forever" id="^|$b4CyM:8;|(P(CBa}G" x="0" y="0"><statement name="HANDLER"><block type="music_playable_play" id=")_UiyDhQ[P4!^hyb5@`]"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="music_string_playable" id="3K.[.gM8XLdLP*)C8O?@"><value name="melody"><shadow type="melody_editor" id="=$_U+w|KaxQSL[MiC^00"><field name="melody">"- - - - - - - - "</field></shadow></value><value name="bpm"><shadow type="math_number_minmax" id="iWi|PiV8yvc,]s}|b_9I"><mutation min="40" max="500" label="Bpm" precision="0"></mutation><field name="SLIDER">120</field></shadow></value></shadow><block type="music_string_playable" id="KN+_i*l;83dS4p]Gm@5:"><value name="melody"><shadow type="melody_editor" id="di)tsa`d4u)[wm@P.Z41"><field name="melody">"C5 B A G F E D C "</field></shadow></value><value name="bpm"><shadow type="math_number_minmax" id="+IqOyseO%j@i;UWuVO^*"><mutation min="40" max="500" label="Bpm" precision="0"></mutation><field name="SLIDER">120</field></shadow></value></block></value><next><block type="device_show_leds" id="h.QW0p`Pj@7rZcil8$v?"><field name="LEDS">`
+        # . . . . 
+        # . . . . 
+        # # # # . 
+        # # # # . 
+        # # # # .
+        `</field><next><block type="device_clear_display" id="6F,F!3-mcO/XV#{tQcd["><next><block type="device_show_leds" id="_J0x`wu@rs1Dzlh,R0HJ"><field name="LEDS">`
+        # # # # # 
+        . . . . # 
+        . . . . # 
+        . . . . # 
+        . . . . #
+        `</field></block></next></block></next></block></next></block></statement></block></xml>
